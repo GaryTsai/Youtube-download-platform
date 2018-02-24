@@ -1,3 +1,9 @@
+#git init  
+#git add README.md  
+#git add .  
+#git commit -m "version statement"  
+#git remote add origin url($ git remote add origin git@github.com:GaryTsai/Youtube-download-platform.git)  
+#git push -u origin master
 # Youtube-download-platform  
 ##這是一個簡單的音樂下載平台，可註冊帳號  
 ##功能(我的最愛、下載MP3、MP4)  
