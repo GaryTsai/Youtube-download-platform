@@ -14,15 +14,16 @@ static包含有資料夾css、js、img三個，並且css有檔案style.css
 2.在與mongoDB同一路徑下新增一個data資料夾  
 
 ## 建立<b>Python-flask</b>專案
-1.首先創建一個<b>init.py</b>檔案，內容如下:
-<code>from flask import Flask
-app = Flask(__name__)
+1.首先創建一個<b>init.py</b>檔案，內容如下:  
+<code>from flask import Flask   
+app = Flask(__name__)  
 
-@app.route("/")
-def hello():
-    return "Hello World!"
+@app.route("/")  
+def hello():  
+     return "Hello World!"  
 if __name__ == "__main__"  
-    app.run()
+    app.run()  
+
 </code> 
 
 2.可執行並成功第一個網頁回傳Hello World!  
