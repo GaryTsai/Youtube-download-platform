@@ -11,14 +11,14 @@ static包含有資料夾css、js、img三個，並且css有檔案style.css
 3.尚需更正Youtube的下載API，並使之運行。
   
 
-### 安裝後端資料庫，於MongoDB 官網 https://www.mongodb.com/download-center?jmp=nav#atlas 下載 
-## 安裝
+## 安裝後端資料庫，於MongoDB 官網 https://www.mongodb.com/download-center?jmp=nav#atlas 下載 
+### 安裝
 (1) 與同在mongoDB路徑下，新增data資料夾  
 (2) 使用cmd cd路徑到D:MongoDB/bin所在路徑下，輸入mongod.exe，進行連結。  
 (3) 打開MogDB主程式，mongo.exe  
 (4) show dbs，可看到底下的collection  
 
-## 新增資料庫(範例插入資料與刪除)  
+### 新增資料庫(範例插入資料與刪除)  
 > show dbs  
 > use test  //新增資料庫test  
 > db.student.insert({"Name":"gary","Age":"25","Height":"170"})    
@@ -31,9 +31,9 @@ static包含有資料夾css、js、img三個，並且css有檔案style.css
   
 > 建立User資料表於後面會說明
 
-### python-flask專案  
+## python-flask專案  
 
-## 檔案run.py，內容如下:  #
+### 檔案run.py，內容如下:  #
 <code>  
   `from flask import Flask   
 app = Flask(__name__)  
@@ -43,7 +43,7 @@ def hello():
     return "Hello World!" 
 `  
  </code>
-##  各個資料夾
+###  各個資料夾
 1.新增template、static(css、js、img)、modles、function，common資料夾  
 templates 放置網頁模板  
 static   放置網頁渲染文件(css、js、img)  
