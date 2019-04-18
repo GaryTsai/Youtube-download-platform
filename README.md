@@ -9,10 +9,11 @@
 1.由於上傳時的static呈現有誤
 static包含有資料夾css、js、img三個，並且css有檔案style.css  
 2.需要新增原本有的media資料夾，避免下載檔案下載時的路徑不存在  
-3.尚需更正Youtube的下載API，並使之運行。
+3.尚需更新最新Youtube的下載API，並使之運行。
   
 
 ## 安裝MongoDB，於MongoDB官網 https://www.mongodb.com/download-center?jmp=nav#atlas 下載 
+
 ### * 安裝
 (1) 與同在mongoDB路徑下，新增data資料夾  
 (2) 使用cmd cd路徑到D:MongoDB/bin所在路徑下，輸入mongod.exe，進行連結。  
@@ -29,8 +30,6 @@ static包含有資料夾css、js、img三個，並且css有檔案style.css
 > db.student.drop() //刪除資料表  
 > db.drop //刪除資料庫   
    
-  
-> 建立User資料表於後面會說明
 
 ## python-flask專案 
 
@@ -50,15 +49,7 @@ def hello():
 1.新增template、static(css、js、img)、modles、function，common資料夾  
 templates 放置網頁模板  
 static   放置網頁渲染文件(css、js、img)  
-function 放置各個網站功能(使用request抓取資料的小功能，於實作中創作，並不會使用)  
 modles   放置之後的模組   
 common   放置資料庫設定  
 
-**需再加入建立python-flask過程與各個檔案說明** 
 
-#git init  
-#git add README.md  
-#git add .  
-#git commit -m "version statement"  
-#git remote add origin url($ git remote add origin git@github.com:GaryTsai/Youtube-download-platform.git)  
-#git push -u origin master
